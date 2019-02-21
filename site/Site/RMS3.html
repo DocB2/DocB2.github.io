@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Rick et Morty - Saison 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../dist/css/swiper.min.css">
+
+    <!-- Demo styles -->
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        text-shadow: black 1px 1px 3px;
+    }
+
+    a:visited {
+        color: white;
+        text-decoration: none;
+        text-shadow: black 1px 1px 3px;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        background: #000;
+    }
+    .swiper-slide {
+        font-size: 18px;
+        color:white;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 40px 60px;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .parallax-bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 130%;
+        height: 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+    }
+    .swiper-slide .title {
+        font-size: 3em;
+        font-weight: 300;
+        font-weight: bold;
+        text-shadow: black 1px 1px 3px;
+
+    }
+    .swiper-slide .subtitle {
+        font-size: 2em;
+        text-decoration: underline;
+        text-shadow: black 1px 1px 3px;
+    }
+    .swiper-slide .text {
+        font-size: large;
+        text-shadow: black 1px 1px 3px;
+    }
+    
+    </style>
+</head>
+<header>
+    
+</header>
+
+<nav></nav>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="parallax-bg" data-swiper-parallax="-20%"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url(../dist/css/pics/imgS3E1-2.jpg)">
+                
+                <div class="title" data-swiper-parallax="-100">The Rickshank Rickdemption</div>
+                <div class="subtitle" data-swiper-parallax="-200">SAISON 3 ÉPISODE 1</div>
+                <div class="text" data-swiper-parallax="-300">
+                    <p>Rick sort de prison...</p>
+                </div>
+                </a>
+                <a href="http://www.linkbucks.com/BmPB0" target="_blank">
+                <img src="../dist/css/pics/openloadVOSTFR.png" style="background-color: rgba(255, 255, 255, 0.6) ; width: 113px; border: solid 1px black" ></a>
+                </a>
+        </div>
+         <div class="swiper-slide" style="background-image: url(../dist/css/pics/imgS3E2.jpg)">
+                
+                <div class="title" data-swiper-parallax="-100">Rickmancing the Stone</div>
+                <div class="subtitle" data-swiper-parallax="-200">SAISON 3 ÉPISODE 2</div>
+                <div class="text" data-swiper-parallax="-300">
+                    <p>Rick en mode Mad Max</p>
+                </div>
+                </a>
+                <a href="http://www.linkbucks.com/BmPB0" target="_blank">
+                <img src="../dist/css/pics/openloadVOSTFR.png" style="background-color: rgba(255, 255, 255, 0.6) ; width: 113px; border: solid 1px black" ></a>
+                </a>
+        </div>
+
+        <div class="swiper-slide" style="background-image: url(../dist/css/pics/imgS3E3.jpg)">
+                
+                <div class="title" data-swiper-parallax="-100">Pickle Rick</div>
+                <div class="subtitle" data-swiper-parallax="-200">SAISON 3 ÉPISODE 3</div>
+                <div class="text" data-swiper-parallax="-300">
+                    <p>Rick se change en CORNICHON!!</p>
+                </div>
+                </a>
+                <a href="http://www.linkbucks.com/BmPB0" target="_blank">
+                <img src="../dist/css/pics/openloadVOSTFR.png" style="background-color: rgba(255, 255, 255, 0.6) ; width: 113px; border: solid 1px black" ></a>
+                </a>
+        </div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="../dist/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+   <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        keyboardControl: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        parallax: true,
+        speed: 600,
+    });
+    </script>
+</body>
+<footer>
+    
+</footer>
+</html>
